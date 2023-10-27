@@ -1,5 +1,5 @@
 fun main() {
-    
+
     val unreadCount = 5
     val readCount = 100
     println("You have ${unreadCount + readCount} total messages in your inbox.\n")
@@ -17,11 +17,17 @@ fun main() {
     val reminder = nextMeeting + date
     println(reminder)
 
+    //var(mutable) - val(immutable)
+    var x = 10
+    x = 34
     val trip1: Double = 3.20
+    //trip1 = 34.6  this is wrong
     val trip2: Double = 4.10
     val trip3: Double = 1.72
     val totalTripLength: Double = trip1 + trip2 + trip3
     println("$totalTripLength miles left to destination")
+
+
 
 
 }
